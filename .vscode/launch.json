@@ -1,0 +1,198 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "name": "Dart Run All Test",
+      "request": "launch",
+      "type": "dart",
+      "program": "./test/"
+    },
+    {
+      "name": "Current Device: Debug",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Current Device: Profile",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "Current Device: Release Mode",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "Android: Debug",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "emulator-5554",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Android: Profile",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "emulator-5554",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "iPhone: Debug",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "8C78045B-2A5A-4089-A05D-6CEE90349295",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "iPhone: Profile",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "8C78045B-2A5A-4089-A05D-6CEE90349295",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "MacOS: Debug",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "macos",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "MacOS: Profile",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "macos",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "Windows: Debug",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "windows",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Windows: Profile",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "windows",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "Linux: Debug",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "linux",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Linux: Profile",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "linux",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "Chrome: Debug",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Chrome: Profile",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "Chrome: Release",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "flutterMode": "release"
+    },
+    {
+      "name": "Tests",
+      "type": "dart",
+      "request": "launch",
+      "program": "test/",
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Debug: Mobile Only",
+      "configurations": [
+        "Android: Debug",
+        "iPhone: Debug"
+      ],
+    },
+    {
+      "name": "Debug: Web Only",
+      "configurations": [
+        "Chrome: Debug",
+      ],
+    },
+    {
+      "name": "Debug: Desktop Only",
+      "configurations": [
+        "MacOS: Debug",
+        "Windows: Debug",
+        "Linux: Debug"
+      ],
+    },
+    {
+      "name": "Debug: Natively Linux",
+      "configurations": [
+        "Linux: Debug",
+        "Android: Debug",
+      ],
+    },
+    {
+      "name": "Debug: Natively On Mac",
+      "configurations": [
+        "iPhone: Debug",
+        "MacOS: Debug",
+      ],
+    },
+    {
+      "name": "Debug: Natively On PC",
+      "configurations": [
+        "Android: Debug",
+        "Windows: Debug"
+      ],
+    },
+    {
+      "name": "Debug: All Devices On Mac M1",
+      "configurations": [
+        "Android: Debug",
+        "iPhone: Debug",
+        "Chrome: Debug",
+        "MacOS: Debug"
+      ],
+    },
+    {
+      "name": "Debug: All Devices On Windows",
+      "configurations": [
+        "Android: Debug",
+        "Chrome: Debug",
+        "Windows: Debug"
+      ],
+    },
+    {
+      "name": "Debug: All Devices On Linux",
+      "configurations": [
+        "Android: Debug",
+        "Chrome: Debug",
+        "Linux: Debug"
+      ],
+    },
+  ]
+}
+
+
