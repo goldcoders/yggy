@@ -4,5 +4,14 @@
 <dict>
 	<key>com.apple.security.app-sandbox</key>
 	<true/>
+	<!-- enable network server -->
+	<key>com.apple.security.network.server</key>
+	<true/>
+	<!-- enable internet connection -->
+	<key>com.apple.security.network.client</key>
+  <true/>
+	<!-- enable to execute command -->
+	<key>com.apple.security.kext.allow-jit</key>
+	<true/>
 </dict>
 </plist>
