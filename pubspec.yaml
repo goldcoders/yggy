@@ -25,7 +25,10 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   equatable: ^2.0.3
+  flutter_dotenv: ^5.0.0
   get: ^4.2.5
+  get_storage: ^2.0.3
+  supabase: ^0.0.6
   url_launcher: ^6.0.9
 
 dev_dependencies:
@@ -36,7 +39,13 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter.
 flutter:
-
+  assets:
+    - .env
+    - assets/images/
+  # fonts:
+  #   - family: Signatra
+  #     fonts:
+  #       - asset: assets/fonts/Signatra.ttf
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
