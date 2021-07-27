@@ -24,6 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
   get: ^4.2.5
   url_launcher: ^6.0.9
 
