@@ -58,3 +58,6 @@ app.*.map.json
 *.tar.7z
 *.tar.bz
 *.rar
+
+GetStorage.bak
+GetStorage.gs
