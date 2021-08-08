@@ -1,0 +1,10 @@
+[Desktop Entry]
+# This is a development .desktop file, no version is specified.
+Terminal=false
+Type=Application
+Name=Yggy
+Comment=Easily Manage Your 1 Click Deploy Site
+Exec=yggy %f
+Icon=${SNAP}/meta/gui/yggy.png
+Categories=Utility;
+
