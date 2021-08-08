@@ -22,7 +22,7 @@ We Get the Fingerprint of the device and Add it to the license
 A License Can Only Be Used Once
 
 ## Binaries Needed
-- [Hugo](https://github.com/gohugoio/hugo/releases)
+- [Hugo](https://github.com/gohugoio/hugo/releases) needs to be downloaded here for windows
 
 
  ## Test Guidelines
