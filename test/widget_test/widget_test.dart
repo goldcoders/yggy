@@ -1,12 +1,9 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:yggy/app.dart';
 import 'package:yggy/app/modules/home/views/home_view.dart';
 import 'package:yggy/core/utils/constants.dart';
@@ -106,11 +103,11 @@ Future<void> main() async {
 
 // will be useful later on
 // ignore: unused_element
-Future<File> _fileDb(
-    {bool isBackup = false, String fileName = 'GetStorage'}) async {
-  final dir = await getApplicationDocumentsDirectory();
-  final _path = dir.path;
-  final _file =
-      isBackup ? File('$_path/$fileName.bak') : File('$_path/$fileName.gs');
-  return _file;
-}
+// Future<File> _fileDb(
+//     {bool isBackup = false, String fileName = 'GetStorage'}) async {
+//   final dir = await getApplicationDocumentsDirectory();
+//   final _path = dir.path;
+//   final _file =
+//       isBackup ? File('$_path/$fileName.bak') : File('$_path/$fileName.gs');
+//   return _file;
+// }
