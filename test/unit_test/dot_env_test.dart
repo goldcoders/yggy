@@ -23,6 +23,7 @@ void main() {
       expect(dotenv.env[APP_VERSION], 'V1.0.0');
       expect(dotenv.env[APP_COMPANY], 'GOLDCODERS CORP.');
       expect(dotenv.env[PRODUCTION], 'true');
+      expect(dotenv.env[NODE_VERSION], 'v14.17.1');
     });
   });
 }
