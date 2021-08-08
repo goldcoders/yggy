@@ -21,15 +21,14 @@ We Get the Fingerprint of the device and Add it to the license
 
 A License Can Only Be Used Once
 
-## Binaries
-[Hugo](https://github.com/gohugoio/hugo/releases)
- By Default Curl is Installed in Mac and Windows , Ubuntu dont have curl?
- [Archwiki Curl](https://wiki.archlinux.org/title/CURL)
+## Binaries Needed
+- [Hugo](https://github.com/gohugoio/hugo/releases)
 
- We will use Dart Curl package , By default
 
- ## Test
- [Get Storage](https://github.com/jonataslaw/get_storage/blob/master/test/getstorage_test.dart)
- [Flutter Dotenv](https://github.com/java-james/flutter_dotenv/blob/master/test/dotenv_test.dart)
- [Getx Test Suites](https://github.com/jonataslaw/getx/tree/master/test)
+ ## Test Guidelines
 
+- [Get Storage](https://github.com/jonataslaw/get_storage/blob/master/test/getstorage_test.dart)
+
+- [Flutter Dotenv](https://github.com/java-james/flutter_dotenv/blob/master/test/dotenv_test.dart)
+
+- [GetX](https://github.com/jonataslaw/getx/tree/master/test)
