@@ -1,0 +1,27 @@
+# This is a development snapcraft file, no version is specified. Uncomment the line below to build a snap.
+#version: "0.1.0"
+name: yggy
+summary: Yggy
+description: |
+  Easily Manage Your 1 Click Deploy Sites
+
+confinement: strict
+base: core18
+grade: stable
+icon: snap/gui/yggy.png
+
+apps:
+  sidekick:
+    command: desktop-launch yggy
+    extensions: [flutter-beta]
+    plugs:
+      - network
+      - desktop
+      - home
+
+parts:
+  sidekick:
+    source: https://github.com/thriftapps/yggy.git
+    plugin: flutter
+    flutter-target: lib/main.dart
+
