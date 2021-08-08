@@ -9,7 +9,9 @@ import 'package:yggy/core/utils/constants.dart';
 class FakeCommand extends Fake implements Command {
   @override
   Future<bool> locate(String command) async {
-    if (command == 'node' || command == 'webi') return Future.value(true);
+    if (command == 'node' || command == 'webi' || command == 'pathman') {
+      return Future.value(true);
+    }
     return false;
   }
 
@@ -47,10 +49,10 @@ void main() {
   });
 
   group('Version Check', () {
-    test('Node Version Installed Should be v16.5.0', () async {
+    test('Node Version Installed Should be v14.17.1', () async {
       final List<String> args = ['--version'];
       final String? version = await command.getVersion('node', args);
-      expect(version, 'v16.5.0');
+      expect(version, 'v14.17.1');
     });
   });
 }
