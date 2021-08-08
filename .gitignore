@@ -47,3 +47,14 @@ app.*.map.json
 
 .env*
 !.env.example
+!.env.test
+
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.z
+*.tar.lz
+*.tar.7z
+*.tar.bz
+*.rar
