@@ -37,9 +37,7 @@ void main() {
 
   setUp(() {
     print(Directory.current.toString());
-    dotenv.testLoad(
-        fileInput: File('.env')
-            .readAsStringSync()); //, mergeWith: Platform.environment
+    dotenv.testLoad(fileInput: File('.env').readAsStringSync());
   });
 
   group('Command Exists in PATH', () {
